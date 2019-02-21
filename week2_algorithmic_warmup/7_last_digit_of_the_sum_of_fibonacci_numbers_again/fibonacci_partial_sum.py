@@ -1,11 +1,12 @@
 # Uses python3
 import sys
 
+
 def fibonacci_partial_sum_naive(from_, to):
     sum = 0
 
     current = 0
-    next  = 1
+    next = 1
 
     for i in range(to + 1):
         if i >= from_:
